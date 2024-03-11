@@ -9,8 +9,6 @@ EXCITER=`cat /var/www/html/cgi-bin/catfiles/components/Exciter/power`
 PLL=`cat /var/www/html/cgi-bin/catfiles/components/Exciter/pll`
 AMP=`cat /var/www/html/cgi-bin/catfiles/components/Amplifier/status`
 TXPWR=`cat /var/www/html/cgi-bin/catfiles/components/Amplifier/drive`
-AUDSRC=`cat /var/www/html/cgi-bin/catfiles/components/Audio/clipper.source`
-MPXCLIP=`cat /var/www/html/cgi-bin/catfiles/components/Audio/clipper.status`
 ALERTMAIL=`cat /var/www/html/cgi-bin/catfiles/Numerics/alertmail`
 
 echo "content-type: text/plain"
@@ -44,9 +42,6 @@ echo  "$AMP"
 echo
 echo  "Amplifier Drive:"
 echo  "$TXPWR"
-echo
-echo  "Audio Source:"
-echo  "$AUDSRC"
 echo
 echo  "ALERT STATUS:"
 echo  "$ALERTMAIL"
