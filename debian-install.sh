@@ -18,3 +18,4 @@ echo "* * * * * /var/www/html/cgi-bin/temp.sh" >> mycron
 #install new cron file
 crontab mycron
 rm mycron
+sudo service apache2 restart
