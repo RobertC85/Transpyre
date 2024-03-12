@@ -2,7 +2,7 @@
 echo "Not Ready Yet, this will be a public open source project soon, but for the love of your sanity please press ctrl+c now!"
 sleep 15
 #installing dependencies
-sudo apt install -y x11vnc xorg xinit chromium-browser apache2 proftpd vlc npm nodejs cubicsdr gqrx-sdr
+sudo apt install -y x11vnc xorg xinit chromium-browser apache2 proftpd vlc npm nodejs cubicsdr gqrx-sdr flwm
 echo "okay i got that part, this is the last step before we start making real changes and installing our software to your device, i'll give you a few seconds to change your mind"
 sleep 5
 echo "okay you glutton for punishment by pre-alpha software testing you, here we go"
