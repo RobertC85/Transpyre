@@ -12,7 +12,7 @@ echo "ok if we are still alive you can login with your browser to your devices I
 #write out current crontab
 crontab -l > mycron
 #echo new cron into cron file
-echo "@reboot /usr/local/sbin/vnclauncher" >> mycron
+echo "@reboot /usr/local/sbin/.vnclauncher" >> mycron
 echo "@reboot /usr/local/sbin/startup" >> mycron
 echo "* * * * * /var/www/html/cgi-bin/temp.sh" >> mycron
 #install new cron file
