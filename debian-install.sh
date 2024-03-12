@@ -6,7 +6,6 @@ sudo apt install -y x11vnc xorg xinit chromium-browser apache2 proftpd vlc
 echo "okay i got that part, this is the last step before we start making real changes and installing our software to your device, i'll give you a few seconds to change your mind"
 sleep 5
 echo "okay you glutton for punishment by pre-alpha software testing you, here we go"
-sudo cp -r ~/Transpyre/rootFS/var /var
-sudo cp -r ~/Transpyre/rootFS/usr /usr
+sudo cp -r ~/Transpyre/rootFS/* /
 sudo a2enmod cgid
 echo "ok if we are still alive you can login with your browser to your devices IP to access your options, i'm going to add VNC here in a moment"
