@@ -8,4 +8,5 @@ sleep 5
 echo "okay you glutton for punishment by pre-alpha software testing you, here we go"
 sudo cp -r ~/Transpyre/rootFS/var /var
 sudo cp -r ~/Transpyre/rootFS/usr /usr
+sudo a2enmod cgid
 echo "ok if we are still alive you can login with your browser to your devices IP to access your options, i'm going to add VNC here in a moment"
