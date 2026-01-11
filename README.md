@@ -8,3 +8,10 @@ this list will be ammended as the hardware side of things is also under active d
 when that part is done i will tell you how to build it all then install the software and use it
 
 # More info coming soon to this document!
+
+# Transpyre 2.0 update coming late 2026
+  This update will when complete wil controll far more features includint a much more powerful amplifier and redesigned interface (inspired by the old one of course) and support for a different linux distribution if using a raspberry pi, debian based alternatives for third party boards will be built when i can find the time after finishing alpine installatiion scripts
+
+an all new front panel mounted touchscreen interface
+
+secondary rs 232 controlled but otherwise offline sbc rpi or otherwise will controll the tuning and pll of the exciter directly. i still need to find out how to handle the pll digitally in software
